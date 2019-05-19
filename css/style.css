@@ -130,21 +130,47 @@ footer {
 
 .play-container {
   display: flex;
-  margin: 80px;
+  margin: 100px 80px;
   border-color: antiquewhite;
   background-color: #1B2B42;
 }
 
 .sidebar {
   width: 38%;
-  margin-right: 40px;
+  /* margin: 0px 40px; */
   padding: 10px;
   border-right: solid 2px;
 }
 
 .main-play {
-  width: 60%;
+  width: 75%;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.question-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.question-instruction {
+  padding-left: 30px;
+}
+
+.question {
+  font-size: 75px;
+}
+
+.multiple-choice {
+  margin: 20px 0px;
+}
+
+.multiple-choice button{
+  margin-right: 30px;
+  padding: 20px 40px;
 }
 
 .infinity-stones img {
@@ -177,4 +203,65 @@ footer {
   margin-right: 20px;
   margin-left: 20px;
   width: 38%;
+}
+
+div.infinity-stones {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.infinity-stones {
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  /* margin-left: 30px;
+  margin-right: 30px; */
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.infinity-stones img {
+  width: 15%;
+  /* height: 15%; */
+  /* margin-bottom: 10px; */
+  padding-bottom: 10px;
+}
+
+.infinity-stones p {
+  font-size: 16px;
+  text-align: center;
+}
+
+.infinity-stones-keeper img {
+  width: 85%;
+  height: 85%;
+
+}
+
+.infinity-stones div {
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar-hover-message {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+
+.main-play {
+
+}
+
+.question div, .multiple-choice div, .answer-message div {
+  padding: 20px;
+  border-radius: 1px solid;
+}
+
+.solve {
+
+}
+
+.answer-message {
+  padding: 20px;
 }
